@@ -49,3 +49,36 @@ span a{
 #foto2{
     width: 43.5%;
 }
+
+.evidenziatore{
+    background-color: rgb(233, 237, 13);
+}
+
+.font{
+    font-size: 25px;
+}
+
+/* Agiusto la tabella sia in dimensione, così da utilizzare tutta la larghezza della pagina, sia nell'allineamento del testo a sinistra*/
+#table{
+    width: 100%;
+    text-align: left;
+}
+.tabella_testata{
+    background-color: rgb(9, 149, 241);
+    color: aliceblue;
+}
+
+.riga1{
+    height: 60px;
+    background-color: rgba(63, 186, 238, 0.5);
+}
+.riga2{
+    height: 60px;
+}
+
+.colonna1{
+    width: 20%;
+}
+.colonna2{
+    width: 55%;
+}
