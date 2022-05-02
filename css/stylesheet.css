@@ -1,0 +1,51 @@
+/*Imposto per tutto margini 0 e il box sizing */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*Creazione della striscia in testata, aggiungo l'immagine e il colore nel background, imposto al dimensione del blocco e il padding per settare il logo*/
+#testata{
+    background-image: url(../img/pattern.png);
+    background-color: rgb(60, 10, 223);
+    width: 100%;
+    height: 180px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+/*In questo blocco carico il logo che si trova in posizione grazie al padding aggiunto del padre (#testata) con un background color trasparente*/
+#logo{
+    width: 220px;
+    height: 100px;
+    background-image: url(../img/logo.svg);
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100% 100%;
+}
+
+
+h1{
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+#sottotitolo{
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(125, 119, 119);
+}
+
+/*Con text decoration: none elimino la sottolineatura dal link*/
+span a{
+    text-decoration: none;
+    color: rgb(78, 78, 255);
+}
+
+#foto1{
+    width: 51%;
+}
+#foto2{
+    width: 43.5%;
+}
